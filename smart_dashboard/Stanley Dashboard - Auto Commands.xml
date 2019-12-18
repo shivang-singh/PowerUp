@@ -1,0 +1,68 @@
+<xml version="1.0">
+<dashboard>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.RobotPreferences">
+		<location x="353" y="25"/>
+		<width>427</width>
+		<height>373</height>
+	</static-widget>
+	<widget field="Autonomous Mode" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="34" y="196"/>
+	</widget>
+	<widget field="Main Controller Mode" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="27" y="46"/>
+	</widget>
+	<widget field="Configuration : joystick mode" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="17" y="21"/>
+	</widget>
+</dashboard>
+<live-window>
+</live-window>
+	<hidden field="StartCollector"/>
+	<hidden field="StopLaunchWheel"/>
+	<hidden field="StartIndexer"/>
+	<hidden field="MoveBackwardForDistanceTest"/>
+	<hidden field="MoveBackwardForDistance"/>
+	<hidden field="[Red] [Right] to [Right Gear]"/>
+	<hidden field="StopClimber"/>
+	<hidden field="TurnToAngle180"/>
+	<hidden field="Climber"/>
+	<hidden field="ClimberTest"/>
+	<hidden field="Scheduler"/>
+	<hidden field="MoveForwardForTime"/>
+	<hidden field="ResetEncoders"/>
+	<hidden field="SubsystemTest"/>
+	<hidden field="VisionTest"/>
+	<hidden field="[Blue] [Center] to [Center Gear]"/>
+	<hidden field="StopTurning"/>
+	<hidden field="[Red] [Center] to [Center Gear]"/>
+	<hidden field="MoveForwardForDistanceTest"/>
+	<hidden field="StartLaunchWheel"/>
+	<hidden field="MoveBackwardForTimeTest"/>
+	<hidden field="[Blue] [Right] to [Right Gear]"/>
+	<hidden field="StopIndexer"/>
+	<hidden field="StartClimber"/>
+	<hidden field="TurnRightToAngle45"/>
+	<hidden field="CollectorTest"/>
+	<hidden field="Collector"/>
+	<hidden field="Drive"/>
+	<hidden field="MoveBackwardForTime"/>
+	<hidden field="TurnLeftToAngle45"/>
+	<hidden field="TurnLeftToAngle90"/>
+	<hidden field="MoveForwardForDistance"/>
+	<hidden field="[Red] [Left] to [Left Gear]"/>
+	<hidden field="StopAgitator"/>
+	<hidden field="GyroController : currentRotationRate"/>
+	<hidden field="[Blue] [Left] to [Left Gear]"/>
+	<hidden field="Auto Selector"/>
+	<hidden field="TurnToTarget"/>
+	<hidden field="StartAgitator"/>
+	<hidden field="MoveForwardForTimeTest"/>
+	<hidden field="StopCollector"/>
+	<hidden field="Drive : Encoder Distance"/>
+	<hidden field="LauncherTest"/>
+	<hidden field="ResetGyro"/>
+	<hidden field="StopMoving"/>
+	<hidden field="Vision"/>
+	<hidden field="Launcher"/>
+	<hidden field="TurnRightToAngle90"/>
+</xml>
